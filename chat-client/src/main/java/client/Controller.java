@@ -93,6 +93,7 @@ public class Controller {
         try {
             while (true) {
                 String inputMessage = in.readUTF();
+                //вот тут какая-то ошибка, пожалуйста помогите, написал вам в телеграмм
                 if (inputMessage.equals("/exit")) {
                     closeConnection();
                 }
